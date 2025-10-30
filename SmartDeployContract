@@ -1,3 +1,10 @@
+# Berlino Smart Contract
+
+Bu depo, **Berlino** isimli basit bir Solidity sözleşmesini içerir.  
+Kodun amacı, bir karşılama mesajını (greeting) saklamak, güncellemek ve görüntülemektir.
+
+---
+
 ## Solidity Kodu
 
 Aşağıdaki kodu Remix veya Hardhat üzerinde derleyip deploy edebilirsin:

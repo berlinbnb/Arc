@@ -1,0 +1,30 @@
+# Berlino Smart Contract
+
+Bu depo, **Berlino** isimli basit bir Solidity sözleşmesini içerir.  
+Kodun amacı, bir karşılama mesajını (greeting) saklamak, güncellemek ve görüntülemektir.
+
+---
+
+## Solidity Kodu
+
+Aşağıdaki kodu Remix veya Hardhat üzerinde derleyip deploy edebilirsin:
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.30;
+
+contract Berlino {
+    string private greeting;
+
+    constructor() {
+        greeting = "Hello Berlino!";
+    }
+
+    function setGreeting(string memory newGreeting) public {
+        greeting = newGreeting;
+    }
+
+    function getGreeting() public view returns (string memory) {
+        return greeting;
+    }
+}

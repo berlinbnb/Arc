@@ -1,13 +1,10 @@
-# Berlino Smart Contract
-
 Bu depo, **Berlino** isimli basit bir Solidity sözleşmesini içerir.  
-Kodun amacı, bir karşılama mesajını (greeting) saklamak, güncellemek ve görüntülemektir.
+Kodun amacı, bir karşılama mesajını (greeting) saklamak, güncellemek ve görüntülemektir.  
+
+Arc projesine **SmartDeployContract** yapmak için tasarlanmıştır.  
+Lütfen kodları aşağıdaki **kopyalama butonuna tıklayarak** kopyalayın ve kendi `.sol` dosyanızı oluşturup kodun içeriğini değiştirin.
 
 ---
-
-## Solidity Kodu
-
-Aşağıdaki kodu Remix veya Hardhat üzerinde derleyip deploy edebilirsin:
 
 ```solidity
 // SPDX-License-Identifier: MIT
